@@ -24,17 +24,20 @@ export class TimeTrackerComponent {
     this.zone = 'AM';
     this.isOpen = false;
     this.isOpenMinutes = false;
-    this.allHours = [0,1,2,3,4,5,6,7,8,9,10,11,12];
+    this.allHours = [];
     this.allMinutes = [];
     this.time = '';
     this.showTime = false;
     this.showError = false;
-    this.minutesDefault();
+    this.defaultHoursMinutes();
   }
 
-  minutesDefault() {
+  defaultHoursMinutes() {
     for (let i = 0; i <= 60; i++) {
       this.allMinutes.push(i);
+    }
+    for (let i = 0; i <= 12; i++) {
+      this.allHours.push(i);
     }
   }
 
