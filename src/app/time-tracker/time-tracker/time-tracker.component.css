@@ -1,0 +1,62 @@
+.form-field {
+    width: 100px;
+    padding-left: 20px;
+  }
+
+.zone {
+    width: 70px;
+    padding-left: 20px;
+}
+
+  .hours-list {
+    width: 40px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    margin-left: 20px;
+  }
+  
+  .hours-list > li {
+    list-style-type: none;
+    border-bottom: solid 1px #8b8b8b;
+    padding: 5px 0;
+  }
+  
+  .hours-list > li:last-child {
+    border-bottom: none;
+  }
+
+  
+  .minutes-list {
+    width: 40px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    margin-left: 140px;
+    overflow: scroll;
+    max-height: 400px;
+  }
+  
+  .minutes-list > li {
+    list-style-type: none;
+    border-bottom: solid 1px #8b8b8b;
+    padding: 5px 0;
+  }
+  
+  .minutes-list > li:last-child {
+    border-bottom: none;
+  }
+  
+  .button {
+    margin-left: 20px;
+  }
+
+  .message {
+    padding-left: 20px;
+  }
